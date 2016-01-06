@@ -55,4 +55,8 @@ To push to the repo:
     git push --tags
     debsign
     debrelease matrix
+    
+Remember to login to the debian repository and copy the packages to the other distributions, e.g.:
+
+    reprepro copysrc jessie wheezy matrix-synapse
 
